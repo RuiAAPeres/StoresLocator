@@ -7,242 +7,214 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C70748631A77DF4800155ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707485A1A77DF4800155ED1 /* AppDelegate.swift */; };
-		C70748641A77DF4800155ED1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C707485C1A77DF4800155ED1 /* Images.xcassets */; };
-		C70748651A77DF4800155ED1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C707485D1A77DF4800155ED1 /* LaunchScreen.xib */; };
-		C70748661A77DF4800155ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C707485E1A77DF4800155ED1 /* Main.storyboard */; };
-		C70748681A77DF4800155ED1 /* StoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70748621A77DF4800155ED1 /* StoresViewController.swift */; };
-		C707486C1A77E01700155ED1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707486B1A77E01700155ED1 /* MapKit.framework */; };
-		C70748701A77E3AB00155ED1 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707486F1A77E3AB00155ED1 /* UIButton+Extensions.swift */; };
-		C70748721A77F9D100155ED1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70748711A77F9D100155ED1 /* Parse.framework */; };
-		C70748781A77FAB200155ED1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70748771A77FAB200155ED1 /* AudioToolbox.framework */; };
-		C707487A1A77FAB800155ED1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70748791A77FAB800155ED1 /* Social.framework */; };
-		C707487C1A77FABE00155ED1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707487B1A77FABE00155ED1 /* Accounts.framework */; };
-		C707487E1A77FAC600155ED1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707487D1A77FAC600155ED1 /* AdSupport.framework */; };
-		C70748801A77FACF00155ED1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707487F1A77FACF00155ED1 /* CFNetwork.framework */; };
-		C70748821A77FAD600155ED1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70748811A77FAD600155ED1 /* CoreGraphics.framework */; };
-		C70748841A77FADD00155ED1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70748831A77FADD00155ED1 /* CoreLocation.framework */; };
-		C70748861A77FAE100155ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70748851A77FAE100155ED1 /* Foundation.framework */; };
-		C70748881A77FAEB00155ED1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C70748871A77FAEB00155ED1 /* libsqlite3.dylib */; };
-		C707488A1A77FAF400155ED1 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C70748891A77FAF400155ED1 /* libz.1.1.3.dylib */; };
-		C707488C1A77FAFA00155ED1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707488B1A77FAFA00155ED1 /* MobileCoreServices.framework */; };
-		C707488E1A77FB1D00155ED1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707488D1A77FB1D00155ED1 /* Bolts.framework */; };
-		C7B5A0AD1A781CE700D00811 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B5A0AC1A781CE700D00811 /* Default-568h@2x.png */; };
-		F51109C43ECC2A03065C5E75 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2306457914F36A3FD113EB1F /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C70700871A78542300E842A1 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707007B1A78542300E842A1 /* UIButton+Extensions.swift */; };
+		C70700881A78542300E842A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707007D1A78542300E842A1 /* AppDelegate.swift */; };
+		C70700891A78542300E842A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C707007F1A78542300E842A1 /* Images.xcassets */; };
+		C707008A1A78542300E842A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70700801A78542300E842A1 /* LaunchScreen.xib */; };
+		C707008B1A78542300E842A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70700811A78542300E842A1 /* Main.storyboard */; };
+		C707008D1A78542300E842A1 /* StoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700861A78542300E842A1 /* StoresViewController.swift */; };
+		C70700911A78547800E842A1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707008F1A78547800E842A1 /* Bolts.framework */; };
+		C70700921A78547800E842A1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700901A78547800E842A1 /* Parse.framework */; };
+		C70700941A7854A400E842A1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700931A7854A400E842A1 /* AudioToolbox.framework */; };
+		C70700961A7854A900E842A1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700951A7854A900E842A1 /* CFNetwork.framework */; };
+		C70700981A7854AF00E842A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700971A7854AF00E842A1 /* CoreGraphics.framework */; };
+		C707009A1A7854B600E842A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700991A7854B600E842A1 /* CoreLocation.framework */; };
+		C707009C1A7854BC00E842A1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707009B1A7854BC00E842A1 /* MobileCoreServices.framework */; };
+		C707009E1A7854C200E842A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707009D1A7854C200E842A1 /* QuartzCore.framework */; };
+		C70700A01A7854C700E842A1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707009F1A7854C700E842A1 /* Security.framework */; };
+		C70700A21A7854CE00E842A1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700A11A7854CE00E842A1 /* StoreKit.framework */; };
+		C70700A41A7854D600E842A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700A31A7854D600E842A1 /* SystemConfiguration.framework */; };
+		C70700A61A7854DD00E842A1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700A51A7854DD00E842A1 /* libz.dylib */; };
+		C70700A81A7854E600E842A1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700A71A7854E600E842A1 /* libsqlite3.dylib */; };
+		C70700AC1A7855A000E842A1 /* ParseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700AB1A7855A000E842A1 /* ParseConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		167988FC9AF9CED9E8C52F87 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		2306457914F36A3FD113EB1F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C70748341A77DEFE00155ED1 /* StoresLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoresLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C707485A1A77DF4800155ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C707485C1A77DF4800155ED1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C707485D1A77DF4800155ED1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		C707485E1A77DF4800155ED1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C70748601A77DF4800155ED1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C70748621A77DF4800155ED1 /* StoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresViewController.swift; sourceTree = "<group>"; };
-		C707486B1A77E01700155ED1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		C707486F1A77E3AB00155ED1 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
-		C70748711A77F9D100155ED1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		C70748731A77F9FF00155ED1 /* Stores Locator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stores Locator-Bridging-Header.h"; sourceTree = "<group>"; };
-		C70748771A77FAB200155ED1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		C70748791A77FAB800155ED1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		C707487B1A77FABE00155ED1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		C707487D1A77FAC600155ED1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		C707487F1A77FACF00155ED1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		C70748811A77FAD600155ED1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C70748831A77FADD00155ED1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		C70748851A77FAE100155ED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C70748871A77FAEB00155ED1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		C70748891A77FAF400155ED1 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
-		C707488B1A77FAFA00155ED1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		C707488D1A77FB1D00155ED1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../parse-library-1.6.2/Bolts.framework"; sourceTree = "<group>"; };
-		C7B5A0AC1A781CE700D00811 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F0CC6380358AA0D67426DDAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C70700541A7853EB00E842A1 /* StoresLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoresLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C707007B1A78542300E842A1 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		C707007D1A78542300E842A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C707007F1A78542300E842A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C70700801A78542300E842A1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C70700811A78542300E842A1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C70700831A78542300E842A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70700861A78542300E842A1 /* StoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresViewController.swift; sourceTree = "<group>"; };
+		C707008F1A78547800E842A1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		C70700901A78547800E842A1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C70700931A7854A400E842A1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C70700951A7854A900E842A1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C70700971A7854AF00E842A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C70700991A7854B600E842A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C707009B1A7854BC00E842A1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C707009D1A7854C200E842A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C707009F1A7854C700E842A1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C70700A11A7854CE00E842A1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C70700A31A7854D600E842A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C70700A51A7854DD00E842A1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C70700A71A7854E600E842A1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C70700A91A78550A00E842A1 /* StoresLocator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoresLocator-Bridging-Header.h"; sourceTree = "<group>"; };
+		C70700AB1A7855A000E842A1 /* ParseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C70748311A77DEFE00155ED1 /* Frameworks */ = {
+		C70700511A7853EB00E842A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C707487A1A77FAB800155ED1 /* Social.framework in Frameworks */,
-				C707488C1A77FAFA00155ED1 /* MobileCoreServices.framework in Frameworks */,
-				C707488A1A77FAF400155ED1 /* libz.1.1.3.dylib in Frameworks */,
-				C70748881A77FAEB00155ED1 /* libsqlite3.dylib in Frameworks */,
-				C70748861A77FAE100155ED1 /* Foundation.framework in Frameworks */,
-				C70748841A77FADD00155ED1 /* CoreLocation.framework in Frameworks */,
-				C70748821A77FAD600155ED1 /* CoreGraphics.framework in Frameworks */,
-				C70748801A77FACF00155ED1 /* CFNetwork.framework in Frameworks */,
-				C707487E1A77FAC600155ED1 /* AdSupport.framework in Frameworks */,
-				C707487C1A77FABE00155ED1 /* Accounts.framework in Frameworks */,
-				C70748781A77FAB200155ED1 /* AudioToolbox.framework in Frameworks */,
-				C70748721A77F9D100155ED1 /* Parse.framework in Frameworks */,
-				C707486C1A77E01700155ED1 /* MapKit.framework in Frameworks */,
-				C707488E1A77FB1D00155ED1 /* Bolts.framework in Frameworks */,
-				F51109C43ECC2A03065C5E75 /* Pods.framework in Frameworks */,
+				C70700A81A7854E600E842A1 /* libsqlite3.dylib in Frameworks */,
+				C70700A61A7854DD00E842A1 /* libz.dylib in Frameworks */,
+				C70700A41A7854D600E842A1 /* SystemConfiguration.framework in Frameworks */,
+				C70700A21A7854CE00E842A1 /* StoreKit.framework in Frameworks */,
+				C70700A01A7854C700E842A1 /* Security.framework in Frameworks */,
+				C707009E1A7854C200E842A1 /* QuartzCore.framework in Frameworks */,
+				C707009C1A7854BC00E842A1 /* MobileCoreServices.framework in Frameworks */,
+				C707009A1A7854B600E842A1 /* CoreLocation.framework in Frameworks */,
+				C70700981A7854AF00E842A1 /* CoreGraphics.framework in Frameworks */,
+				C70700961A7854A900E842A1 /* CFNetwork.framework in Frameworks */,
+				C70700941A7854A400E842A1 /* AudioToolbox.framework in Frameworks */,
+				C70700921A78547800E842A1 /* Parse.framework in Frameworks */,
+				C70700911A78547800E842A1 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4FDD443BEE4DBEE02781D85D /* Pods */ = {
+		C707004B1A7853EB00E842A1 = {
 			isa = PBXGroup;
 			children = (
-				F0CC6380358AA0D67426DDAE /* Pods.debug.xcconfig */,
-				167988FC9AF9CED9E8C52F87 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C707482B1A77DEFE00155ED1 = {
-			isa = PBXGroup;
-			children = (
-				C7B5A0AC1A781CE700D00811 /* Default-568h@2x.png */,
-				C70748361A77DEFE00155ED1 /* StoresLocator */,
-				C707488F1A77FB6100155ED1 /* Frameworks */,
-				C70748351A77DEFE00155ED1 /* Products */,
-				4FDD443BEE4DBEE02781D85D /* Pods */,
+				C70700561A7853EB00E842A1 /* StoresLocator */,
+				C707008E1A78546E00E842A1 /* Frameworks */,
+				C70700551A7853EB00E842A1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C70748351A77DEFE00155ED1 /* Products */ = {
+		C70700551A7853EB00E842A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C70748341A77DEFE00155ED1 /* StoresLocator.app */,
+				C70700541A7853EB00E842A1 /* StoresLocator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C70748361A77DEFE00155ED1 /* StoresLocator */ = {
+		C70700561A7853EB00E842A1 /* StoresLocator */ = {
 			isa = PBXGroup;
 			children = (
-				C70748591A77DF4800155ED1 /* App Delegate */,
-				C707486D1A77E38600155ED1 /* Additions */,
-				C70748611A77DF4800155ED1 /* View Controllers */,
-				C707485B1A77DF4800155ED1 /* Resources */,
-				C707485F1A77DF4800155ED1 /* Supporting Files */,
+				C707007C1A78542300E842A1 /* App Delegate */,
+				C70700791A78542300E842A1 /* Additions */,
+				C70700851A78542300E842A1 /* View Controllers */,
+				C707007E1A78542300E842A1 /* Resources */,
+				C70700821A78542300E842A1 /* Supporting Files */,
 			);
 			path = StoresLocator;
 			sourceTree = "<group>";
 		};
-		C70748591A77DF4800155ED1 /* App Delegate */ = {
+		C70700791A78542300E842A1 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
-				C707485A1A77DF4800155ED1 /* AppDelegate.swift */,
-			);
-			path = "App Delegate";
-			sourceTree = "<group>";
-		};
-		C707485B1A77DF4800155ED1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C707485C1A77DF4800155ED1 /* Images.xcassets */,
-				C707485D1A77DF4800155ED1 /* LaunchScreen.xib */,
-				C707485E1A77DF4800155ED1 /* Main.storyboard */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		C707485F1A77DF4800155ED1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C70748601A77DF4800155ED1 /* Info.plist */,
-				C70748731A77F9FF00155ED1 /* Stores Locator-Bridging-Header.h */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C70748611A77DF4800155ED1 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				C70748621A77DF4800155ED1 /* StoresViewController.swift */,
-			);
-			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		C707486D1A77E38600155ED1 /* Additions */ = {
-			isa = PBXGroup;
-			children = (
-				C707486E1A77E39F00155ED1 /* Extensions */,
+				C707007A1A78542300E842A1 /* Extensions */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
 		};
-		C707486E1A77E39F00155ED1 /* Extensions */ = {
+		C707007A1A78542300E842A1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C707486F1A77E3AB00155ED1 /* UIButton+Extensions.swift */,
+				C707007B1A78542300E842A1 /* UIButton+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		C707488F1A77FB6100155ED1 /* Frameworks */ = {
+		C707007C1A78542300E842A1 /* App Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				C707488D1A77FB1D00155ED1 /* Bolts.framework */,
-				C707488B1A77FAFA00155ED1 /* MobileCoreServices.framework */,
-				C70748891A77FAF400155ED1 /* libz.1.1.3.dylib */,
-				C70748871A77FAEB00155ED1 /* libsqlite3.dylib */,
-				C70748851A77FAE100155ED1 /* Foundation.framework */,
-				C70748831A77FADD00155ED1 /* CoreLocation.framework */,
-				C70748811A77FAD600155ED1 /* CoreGraphics.framework */,
-				C707487F1A77FACF00155ED1 /* CFNetwork.framework */,
-				C707487D1A77FAC600155ED1 /* AdSupport.framework */,
-				C707487B1A77FABE00155ED1 /* Accounts.framework */,
-				C70748791A77FAB800155ED1 /* Social.framework */,
-				C70748771A77FAB200155ED1 /* AudioToolbox.framework */,
-				C70748711A77F9D100155ED1 /* Parse.framework */,
-				C707486B1A77E01700155ED1 /* MapKit.framework */,
-				2306457914F36A3FD113EB1F /* Pods.framework */,
+				C707007D1A78542300E842A1 /* AppDelegate.swift */,
 			);
-			name = Frameworks;
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		C707007E1A78542300E842A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C707007F1A78542300E842A1 /* Images.xcassets */,
+				C70700801A78542300E842A1 /* LaunchScreen.xib */,
+				C70700811A78542300E842A1 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C70700821A78542300E842A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70700AB1A7855A000E842A1 /* ParseConfiguration.swift */,
+				C70700831A78542300E842A1 /* Info.plist */,
+				C70700A91A78550A00E842A1 /* StoresLocator-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C70700851A78542300E842A1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C70700861A78542300E842A1 /* StoresViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C707008E1A78546E00E842A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C70700A71A7854E600E842A1 /* libsqlite3.dylib */,
+				C70700A51A7854DD00E842A1 /* libz.dylib */,
+				C70700A31A7854D600E842A1 /* SystemConfiguration.framework */,
+				C70700A11A7854CE00E842A1 /* StoreKit.framework */,
+				C707009F1A7854C700E842A1 /* Security.framework */,
+				C707009D1A7854C200E842A1 /* QuartzCore.framework */,
+				C707009B1A7854BC00E842A1 /* MobileCoreServices.framework */,
+				C70700991A7854B600E842A1 /* CoreLocation.framework */,
+				C70700971A7854AF00E842A1 /* CoreGraphics.framework */,
+				C70700951A7854A900E842A1 /* CFNetwork.framework */,
+				C70700931A7854A400E842A1 /* AudioToolbox.framework */,
+				C707008F1A78547800E842A1 /* Bolts.framework */,
+				C70700901A78547800E842A1 /* Parse.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C70748331A77DEFE00155ED1 /* StoresLocator */ = {
+		C70700531A7853EB00E842A1 /* StoresLocator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C70748531A77DEFE00155ED1 /* Build configuration list for PBXNativeTarget "StoresLocator" */;
+			buildConfigurationList = C70700731A7853EB00E842A1 /* Build configuration list for PBXNativeTarget "StoresLocator" */;
 			buildPhases = (
-				B6E4C1F59684C57EFC2B0419 /* Check Pods Manifest.lock */,
-				C70748301A77DEFE00155ED1 /* Sources */,
-				C70748311A77DEFE00155ED1 /* Frameworks */,
-				C70748321A77DEFE00155ED1 /* Resources */,
-				79FBC136E7CE0C52320FEE85 /* Embed Pods Frameworks */,
-				CB7ABCF0F7D93268EBF456EA /* Copy Pods Resources */,
+				C70700501A7853EB00E842A1 /* Sources */,
+				C70700511A7853EB00E842A1 /* Frameworks */,
+				C70700521A7853EB00E842A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = StoresLocator;
-			productName = "Stores Locator";
-			productReference = C70748341A77DEFE00155ED1 /* StoresLocator.app */;
+			productName = StoresLocator;
+			productReference = C70700541A7853EB00E842A1 /* StoresLocator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C707482C1A77DEFE00155ED1 /* Project object */ = {
+		C707004C1A7853EB00E842A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = RP;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rui Peres";
 				TargetAttributes = {
-					C70748331A77DEFE00155ED1 = {
-						CreatedOnToolsVersion = 6.1.1;
-						SystemCapabilities = {
-							com.apple.Maps.iOS = {
-								enabled = 1;
-							};
-						};
+					C70700531A7853EB00E842A1 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
-			buildConfigurationList = C707482F1A77DEFE00155ED1 /* Build configuration list for PBXProject "StoresLocator" */;
+			buildConfigurationList = C707004F1A7853EB00E842A1 /* Build configuration list for PBXProject "StoresLocator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,93 +222,45 @@
 				en,
 				Base,
 			);
-			mainGroup = C707482B1A77DEFE00155ED1;
-			productRefGroup = C70748351A77DEFE00155ED1 /* Products */;
+			mainGroup = C707004B1A7853EB00E842A1;
+			productRefGroup = C70700551A7853EB00E842A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C70748331A77DEFE00155ED1 /* StoresLocator */,
+				C70700531A7853EB00E842A1 /* StoresLocator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C70748321A77DEFE00155ED1 /* Resources */ = {
+		C70700521A7853EB00E842A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70748661A77DF4800155ED1 /* Main.storyboard in Resources */,
-				C7B5A0AD1A781CE700D00811 /* Default-568h@2x.png in Resources */,
-				C70748651A77DF4800155ED1 /* LaunchScreen.xib in Resources */,
-				C70748641A77DF4800155ED1 /* Images.xcassets in Resources */,
+				C707008B1A78542300E842A1 /* Main.storyboard in Resources */,
+				C707008A1A78542300E842A1 /* LaunchScreen.xib in Resources */,
+				C70700891A78542300E842A1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		79FBC136E7CE0C52320FEE85 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B6E4C1F59684C57EFC2B0419 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CB7ABCF0F7D93268EBF456EA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C70748301A77DEFE00155ED1 /* Sources */ = {
+		C70700501A7853EB00E842A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70748681A77DF4800155ED1 /* StoresViewController.swift in Sources */,
-				C70748701A77E3AB00155ED1 /* UIButton+Extensions.swift in Sources */,
-				C70748631A77DF4800155ED1 /* AppDelegate.swift in Sources */,
+				C70700881A78542300E842A1 /* AppDelegate.swift in Sources */,
+				C70700871A78542300E842A1 /* UIButton+Extensions.swift in Sources */,
+				C70700AC1A7855A000E842A1 /* ParseConfiguration.swift in Sources */,
+				C707008D1A78542300E842A1 /* StoresViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C70748511A77DEFE00155ED1 /* Debug */ = {
+		C70700711A7853EB00E842A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -378,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		C70748521A77DEFE00155ED1 /* Release */ = {
+		C70700721A7853EB00E842A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,72 +330,68 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C70748541A77DEFE00155ED1 /* Debug */ = {
+		C70700741A7853EB00E842A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0CC6380358AA0D67426DDAE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"/Users/ruiperes/Desktop/parse-library-1.6.2",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "StoresLocator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = StoresLocator;
-				SWIFT_OBJC_BRIDGING_HEADER = "StoresLocator/Supporting Files/Stores Locator-Bridging-Header.h";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StoresLocator/Supporting Files/StoresLocator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C70748551A77DEFE00155ED1 /* Release */ = {
+		C70700751A7853EB00E842A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 167988FC9AF9CED9E8C52F87 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"/Users/ruiperes/Desktop/parse-library-1.6.2",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "StoresLocator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = StoresLocator;
-				SWIFT_OBJC_BRIDGING_HEADER = "StoresLocator/Supporting Files/Stores Locator-Bridging-Header.h";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StoresLocator/Supporting Files/StoresLocator-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C707482F1A77DEFE00155ED1 /* Build configuration list for PBXProject "StoresLocator" */ = {
+		C707004F1A7853EB00E842A1 /* Build configuration list for PBXProject "StoresLocator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C70748511A77DEFE00155ED1 /* Debug */,
-				C70748521A77DEFE00155ED1 /* Release */,
+				C70700711A7853EB00E842A1 /* Debug */,
+				C70700721A7853EB00E842A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C70748531A77DEFE00155ED1 /* Build configuration list for PBXNativeTarget "StoresLocator" */ = {
+		C70700731A7853EB00E842A1 /* Build configuration list for PBXNativeTarget "StoresLocator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C70748541A77DEFE00155ED1 /* Debug */,
-				C70748551A77DEFE00155ED1 /* Release */,
+				C70700741A7853EB00E842A1 /* Debug */,
+				C70700751A7853EB00E842A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C707482C1A77DEFE00155ED1 /* Project object */;
+	rootObject = C707004C1A7853EB00E842A1 /* Project object */;
 }

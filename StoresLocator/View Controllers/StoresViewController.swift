@@ -31,7 +31,7 @@ class StoresViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         locationManager.requestWhenInUseAuthorization()
-        
+                
         setupToolBarIcons()
     }
     
