@@ -17,9 +17,9 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="WgV-Ch-jdU" secondAttribute="trailing" id="GMk-RO-6Ee"/>
-                <constraint firstItem="WgV-Ch-jdU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KaO-Wa-Y86"/>
-                <constraint firstAttribute="bottom" secondItem="WgV-Ch-jdU" secondAttribute="bottom" id="msV-lP-ngu"/>
+                <constraint firstItem="WgV-Ch-jdU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BWY-LY-2gr"/>
+                <constraint firstAttribute="trailing" secondItem="WgV-Ch-jdU" secondAttribute="trailing" id="O8P-dr-wyD"/>
+                <constraint firstAttribute="bottom" secondItem="WgV-Ch-jdU" secondAttribute="bottom" id="mzy-hq-eyI"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
