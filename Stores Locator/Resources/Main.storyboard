@@ -23,7 +23,7 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cH1-Tx-VNI">
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
-                                    <barButtonItem image="location_arrow_default" id="AAY-mH-sri"/>
+                                    <barButtonItem image="location_arrow" id="AAY-mH-sri"/>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -45,7 +45,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="toolbar" destination="cH1-Tx-VNI" id="Znv-cH-7eF"/>
+                        <outlet property="toolbar" destination="cH1-Tx-VNI" id="d4D-cB-CVV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -53,6 +53,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="location_arrow_default" width="22" height="22"/>
+        <image name="location_arrow" width="22" height="22"/>
     </resources>
 </document>

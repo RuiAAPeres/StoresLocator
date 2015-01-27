@@ -31,12 +31,20 @@ class StoresViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         locationManager.requestWhenInUseAuthorization()
+        
+        setupToolBarIcons()
     }
 }
 
 extension StoresViewController {
     
-    func setupToolBarIcons(){
+    func setupToolBarIcons() {
+        let locationButton = UIButton.barButton(named: "location_arrow")
+        locationButton.addTarget(self, action: "goToCurrentLocation", forControlEvents: .TouchUpInside)
         
+        let locationBarButtonItem = UIBarButtonItem(customView: locationButton)
+        locationBarButtonItem.tintColor = UIColor.blueColor()
+        
+        toolbar.setItems([locationBarButtonItem], animated: false)
     }
 }

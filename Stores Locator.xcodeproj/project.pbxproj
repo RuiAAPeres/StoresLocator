@@ -13,6 +13,7 @@
 		C70748661A77DF4800155ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C707485E1A77DF4800155ED1 /* Main.storyboard */; };
 		C70748681A77DF4800155ED1 /* StoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70748621A77DF4800155ED1 /* StoresViewController.swift */; };
 		C707486C1A77E01700155ED1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707486B1A77E01700155ED1 /* MapKit.framework */; };
+		C70748701A77E3AB00155ED1 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707486F1A77E3AB00155ED1 /* UIButton+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C70748601A77DF4800155ED1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C70748621A77DF4800155ED1 /* StoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresViewController.swift; sourceTree = "<group>"; };
 		C707486B1A77E01700155ED1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C707486F1A77E3AB00155ED1 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				C70748591A77DF4800155ED1 /* App Delegate */,
-				C707485B1A77DF4800155ED1 /* Resources */,
+				C707486D1A77E38600155ED1 /* Additions */,
 				C70748611A77DF4800155ED1 /* View Controllers */,
+				C707485B1A77DF4800155ED1 /* Resources */,
 				C707485F1A77DF4800155ED1 /* Supporting Files */,
 			);
 			path = "Stores Locator";
@@ -98,6 +101,22 @@
 				C70748621A77DF4800155ED1 /* StoresViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C707486D1A77E38600155ED1 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C707486E1A77E39F00155ED1 /* Extensions */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		C707486E1A77E39F00155ED1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C707486F1A77E3AB00155ED1 /* UIButton+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70748681A77DF4800155ED1 /* StoresViewController.swift in Sources */,
+				C70748701A77E3AB00155ED1 /* UIButton+Extensions.swift in Sources */,
 				C70748631A77DF4800155ED1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
