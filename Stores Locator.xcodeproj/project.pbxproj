@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C70748501A77DEFE00155ED1 /* Stores_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707484F1A77DEFE00155ED1 /* Stores_LocatorTests.swift */; };
 		C70748631A77DF4800155ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707485A1A77DF4800155ED1 /* AppDelegate.swift */; };
 		C70748641A77DF4800155ED1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C707485C1A77DF4800155ED1 /* Images.xcassets */; };
 		C70748651A77DF4800155ED1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C707485D1A77DF4800155ED1 /* LaunchScreen.xib */; };
@@ -16,21 +15,8 @@
 		C707486C1A77E01700155ED1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707486B1A77E01700155ED1 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C707484A1A77DEFE00155ED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C707482C1A77DEFE00155ED1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C70748331A77DEFE00155ED1;
-			remoteInfo = "Stores Locator";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		C70748341A77DEFE00155ED1 /* Stores Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stores Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C70748491A77DEFE00155ED1 /* Stores LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stores LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C707484E1A77DEFE00155ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C707484F1A77DEFE00155ED1 /* Stores_LocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stores_LocatorTests.swift; sourceTree = "<group>"; };
 		C707485A1A77DF4800155ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C707485C1A77DF4800155ED1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C707485D1A77DF4800155ED1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -49,13 +35,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C70748461A77DEFE00155ED1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,7 +43,6 @@
 			children = (
 				C707486B1A77E01700155ED1 /* MapKit.framework */,
 				C70748361A77DEFE00155ED1 /* Stores Locator */,
-				C707484C1A77DEFE00155ED1 /* Stores LocatorTests */,
 				C70748351A77DEFE00155ED1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				C70748341A77DEFE00155ED1 /* Stores Locator.app */,
-				C70748491A77DEFE00155ED1 /* Stores LocatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,23 +64,6 @@
 				C707485F1A77DF4800155ED1 /* Supporting Files */,
 			);
 			path = "Stores Locator";
-			sourceTree = "<group>";
-		};
-		C707484C1A77DEFE00155ED1 /* Stores LocatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				C707484F1A77DEFE00155ED1 /* Stores_LocatorTests.swift */,
-				C707484D1A77DEFE00155ED1 /* Supporting Files */,
-			);
-			path = "Stores LocatorTests";
-			sourceTree = "<group>";
-		};
-		C707484D1A77DEFE00155ED1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C707484E1A77DEFE00155ED1 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C70748591A77DF4800155ED1 /* App Delegate */ = {
@@ -160,24 +120,6 @@
 			productReference = C70748341A77DEFE00155ED1 /* Stores Locator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C70748481A77DEFE00155ED1 /* Stores LocatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C70748561A77DEFE00155ED1 /* Build configuration list for PBXNativeTarget "Stores LocatorTests" */;
-			buildPhases = (
-				C70748451A77DEFE00155ED1 /* Sources */,
-				C70748461A77DEFE00155ED1 /* Frameworks */,
-				C70748471A77DEFE00155ED1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C707484B1A77DEFE00155ED1 /* PBXTargetDependency */,
-			);
-			name = "Stores LocatorTests";
-			productName = "Stores LocatorTests";
-			productReference = C70748491A77DEFE00155ED1 /* Stores LocatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +137,6 @@
 							};
 						};
 					};
-					C70748481A77DEFE00155ED1 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = C70748331A77DEFE00155ED1;
-					};
 				};
 			};
 			buildConfigurationList = C707482F1A77DEFE00155ED1 /* Build configuration list for PBXProject "Stores Locator" */;
@@ -215,7 +153,6 @@
 			projectRoot = "";
 			targets = (
 				C70748331A77DEFE00155ED1 /* Stores Locator */,
-				C70748481A77DEFE00155ED1 /* Stores LocatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,13 +168,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C70748471A77DEFE00155ED1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -250,23 +180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C70748451A77DEFE00155ED1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C70748501A77DEFE00155ED1 /* Stores_LocatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C707484B1A77DEFE00155ED1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C70748331A77DEFE00155ED1 /* Stores Locator */;
-			targetProxy = C707484A1A77DEFE00155ED1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C70748511A77DEFE00155ED1 /* Debug */ = {
@@ -366,40 +280,6 @@
 			};
 			name = Release;
 		};
-		C70748571A77DEFE00155ED1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Stores LocatorTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stores Locator.app/Stores Locator";
-			};
-			name = Debug;
-		};
-		C70748581A77DEFE00155ED1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Stores LocatorTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stores Locator.app/Stores Locator";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,15 +297,6 @@
 			buildConfigurations = (
 				C70748541A77DEFE00155ED1 /* Debug */,
 				C70748551A77DEFE00155ED1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C70748561A77DEFE00155ED1 /* Build configuration list for PBXNativeTarget "Stores LocatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C70748571A77DEFE00155ED1 /* Debug */,
-				C70748581A77DEFE00155ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
