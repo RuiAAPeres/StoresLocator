@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "193-location-arrow.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "193-location-arrow@2x.png"
+      "filename" : "723-location-arrow-toolbar@2x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "723-location-arrow-toolbar@3x.png"
     }
   ],
   "info" : {

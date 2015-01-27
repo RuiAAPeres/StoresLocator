@@ -12,10 +12,15 @@ import MapKit
 
 class StoresViewController : UIViewController {
     
+    // MARK: IBOutlets
+    
+    @IBOutlet var toolbar : UIToolbar!
+    
     // MARK: Properties
 
     let locationManager : CLLocationManager
 
+    
     // MARK: UIViewController Overrides
 
     required init(coder aDecoder: NSCoder) {
@@ -27,5 +32,11 @@ class StoresViewController : UIViewController {
         super.viewDidLoad()
         locationManager.requestWhenInUseAuthorization()
     }
+}
+
+extension StoresViewController {
     
+    func setupToolBarIcons(){
+        
+    }
 }
