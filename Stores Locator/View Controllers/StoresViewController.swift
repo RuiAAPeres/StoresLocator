@@ -34,13 +34,19 @@ class StoresViewController : UIViewController {
         
         setupToolBarIcons()
     }
+    
+    // MARK: Actions
+    
+    func goToCurrentLocation(sender : UIButton) {
+        
+    }
 }
 
 extension StoresViewController {
     
     func setupToolBarIcons() {
         let locationButton = UIButton.barButton(named: "location_arrow")
-        locationButton.addTarget(self, action: "goToCurrentLocation", forControlEvents: .TouchUpInside)
+        locationButton.addTarget(self, action: "goToCurrentLocation:", forControlEvents: .TouchUpInside)
         
         let locationBarButtonItem = UIBarButtonItem(customView: locationButton)
         locationBarButtonItem.tintColor = UIColor.blueColor()

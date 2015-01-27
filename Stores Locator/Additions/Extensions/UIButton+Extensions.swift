@@ -17,10 +17,12 @@ extension UIImage {
 extension UIButton {
     
     class func barButton(named imageName :String) -> UIButton {
+        let highlightedPrefix = "_highlighted"
+        
         let button = UIButton(frame: CGRect(origin: CGPointZero, size: CGSize(width: 22, height: 22)))
         
         let defaultImage = UIImage.templatedImage(named: imageName)
-        let highlightedImage = UIImage.templatedImage(named: map(imageName,{$0 + "_highlighted" })!)
+        let highlightedImage = UIImage.templatedImage(named: map(imageName,{$0 + highlightedPrefix})!)
         
         button.setBackgroundImage(defaultImage, forState: .Normal)
         button.setBackgroundImage(highlightedImage, forState: .Highlighted)
