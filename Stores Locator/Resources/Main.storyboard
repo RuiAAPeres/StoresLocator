@@ -45,6 +45,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="map" destination="0Nc-xc-agc" id="GN4-NX-h56"/>
                         <outlet property="toolbar" destination="cH1-Tx-VNI" id="d4D-cB-CVV"/>
                     </connections>
                 </viewController>

@@ -14,12 +14,12 @@ class StoresViewController : UIViewController {
     
     // MARK: IBOutlets
     
-    @IBOutlet var toolbar : UIToolbar!
+    @IBOutlet private var toolbar : UIToolbar!
+    @IBOutlet private var map : MKMapView!
     
     // MARK: Properties
 
     let locationManager : CLLocationManager
-
     
     // MARK: UIViewController Overrides
 
@@ -39,6 +39,10 @@ class StoresViewController : UIViewController {
     
     func goToCurrentLocation(sender : UIButton) {
         
+        let coordinateSpan = MKCoordinateSpanMake(0.1, 0.1)
+        let userRegion = MKCoordinateRegionMake(map.userLocation.coordinate, coordinateSpan)
+
+        map.setRegion(userRegion, animated: true)
     }
 }
 
