@@ -27,6 +27,9 @@
 		C70700A61A7854DD00E842A1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700A51A7854DD00E842A1 /* libz.dylib */; };
 		C70700A81A7854E600E842A1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700A71A7854E600E842A1 /* libsqlite3.dylib */; };
 		C70700AC1A7855A000E842A1 /* ParseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700AB1A7855A000E842A1 /* ParseConfiguration.swift */; };
+		C70700B01A7865D200E842A1 /* StoresAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700AF1A7865D200E842A1 /* StoresAPI.swift */; };
+		C70700B21A78681D00E842A1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700B11A78681D00E842A1 /* Store.swift */; };
+		C70700BE1A7871EF00E842A1 /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700BD1A7871EF00E842A1 /* LlamaKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		C70700A71A7854E600E842A1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C70700A91A78550A00E842A1 /* StoresLocator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoresLocator-Bridging-Header.h"; sourceTree = "<group>"; };
 		C70700AB1A7855A000E842A1 /* ParseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseConfiguration.swift; sourceTree = "<group>"; };
+		C70700AF1A7865D200E842A1 /* StoresAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresAPI.swift; sourceTree = "<group>"; };
+		C70700B11A78681D00E842A1 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		C70700BD1A7871EF00E842A1 /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LlamaKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70700BE1A7871EF00E842A1 /* LlamaKit.framework in Frameworks */,
 				C70700A81A7854E600E842A1 /* libsqlite3.dylib in Frameworks */,
 				C70700A61A7854DD00E842A1 /* libz.dylib in Frameworks */,
 				C70700A41A7854D600E842A1 /* SystemConfiguration.framework in Frameworks */,
@@ -101,6 +108,7 @@
 			children = (
 				C707007C1A78542300E842A1 /* App Delegate */,
 				C70700791A78542300E842A1 /* Additions */,
+				C70700AD1A78616800E842A1 /* Components */,
 				C70700851A78542300E842A1 /* View Controllers */,
 				C707007E1A78542300E842A1 /* Resources */,
 				C70700821A78542300E842A1 /* Supporting Files */,
@@ -111,6 +119,7 @@
 		C70700791A78542300E842A1 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				C70700B31A786AA600E842A1 /* Functional Helpers */,
 				C707007A1A78542300E842A1 /* Extensions */,
 			);
 			path = Additions;
@@ -163,6 +172,7 @@
 		C707008E1A78546E00E842A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C70700BD1A7871EF00E842A1 /* LlamaKit.framework */,
 				C70700A71A7854E600E842A1 /* libsqlite3.dylib */,
 				C70700A51A7854DD00E842A1 /* libz.dylib */,
 				C70700A31A7854D600E842A1 /* SystemConfiguration.framework */,
@@ -178,6 +188,30 @@
 				C70700901A78547800E842A1 /* Parse.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C70700AD1A78616800E842A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C70700AE1A7865C900E842A1 /* StoresAPI */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C70700AE1A7865C900E842A1 /* StoresAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C70700AF1A7865D200E842A1 /* StoresAPI.swift */,
+				C70700B11A78681D00E842A1 /* Store.swift */,
+			);
+			path = StoresAPI;
+			sourceTree = "<group>";
+		};
+		C70700B31A786AA600E842A1 /* Functional Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Functional Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +287,9 @@
 				C70700881A78542300E842A1 /* AppDelegate.swift in Sources */,
 				C70700871A78542300E842A1 /* UIButton+Extensions.swift in Sources */,
 				C70700AC1A7855A000E842A1 /* ParseConfiguration.swift in Sources */,
+				C70700B21A78681D00E842A1 /* Store.swift in Sources */,
 				C707008D1A78542300E842A1 /* StoresViewController.swift in Sources */,
+				C70700B01A7865D200E842A1 /* StoresAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +381,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					/Users/ruiperes/Desktop/Carthage.build/iOS,
 				);
 				INFOPLIST_FILE = "StoresLocator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -362,6 +399,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					/Users/ruiperes/Desktop/Carthage.build/iOS,
 				);
 				INFOPLIST_FILE = "StoresLocator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
