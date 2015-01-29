@@ -29,8 +29,23 @@
 		C70700AC1A7855A000E842A1 /* ParseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700AB1A7855A000E842A1 /* ParseConfiguration.swift */; };
 		C70700B01A7865D200E842A1 /* StoresAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700AF1A7865D200E842A1 /* StoresAPI.swift */; };
 		C70700B21A78681D00E842A1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700B11A78681D00E842A1 /* Store.swift */; };
-		C70700BE1A7871EF00E842A1 /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70700BD1A7871EF00E842A1 /* LlamaKit.framework */; };
+		C71507ED1A79D16C00742B4E /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71507EC1A79D16C00742B4E /* LlamaKit.framework */; };
+		C71507EE1A79D16C00742B4E /* LlamaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C71507EC1A79D16C00742B4E /* LlamaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C71507EB1A79CB3000742B4E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C71507EE1A79D16C00742B4E /* LlamaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C70700541A7853EB00E842A1 /* StoresLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoresLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +73,7 @@
 		C70700AB1A7855A000E842A1 /* ParseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseConfiguration.swift; sourceTree = "<group>"; };
 		C70700AF1A7865D200E842A1 /* StoresAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresAPI.swift; sourceTree = "<group>"; };
 		C70700B11A78681D00E842A1 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		C70700BD1A7871EF00E842A1 /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LlamaKit.framework; sourceTree = "<group>"; };
+		C71507EC1A79D16C00742B4E /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LlamaKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70700BE1A7871EF00E842A1 /* LlamaKit.framework in Frameworks */,
 				C70700A81A7854E600E842A1 /* libsqlite3.dylib in Frameworks */,
 				C70700A61A7854DD00E842A1 /* libz.dylib in Frameworks */,
 				C70700A41A7854D600E842A1 /* SystemConfiguration.framework in Frameworks */,
@@ -76,6 +90,7 @@
 				C707009C1A7854BC00E842A1 /* MobileCoreServices.framework in Frameworks */,
 				C707009A1A7854B600E842A1 /* CoreLocation.framework in Frameworks */,
 				C70700981A7854AF00E842A1 /* CoreGraphics.framework in Frameworks */,
+				C71507ED1A79D16C00742B4E /* LlamaKit.framework in Frameworks */,
 				C70700961A7854A900E842A1 /* CFNetwork.framework in Frameworks */,
 				C70700941A7854A400E842A1 /* AudioToolbox.framework in Frameworks */,
 				C70700921A78547800E842A1 /* Parse.framework in Frameworks */,
@@ -119,7 +134,6 @@
 		C70700791A78542300E842A1 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
-				C70700B31A786AA600E842A1 /* Functional Helpers */,
 				C707007A1A78542300E842A1 /* Extensions */,
 			);
 			path = Additions;
@@ -172,7 +186,7 @@
 		C707008E1A78546E00E842A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C70700BD1A7871EF00E842A1 /* LlamaKit.framework */,
+				C71507EC1A79D16C00742B4E /* LlamaKit.framework */,
 				C70700A71A7854E600E842A1 /* libsqlite3.dylib */,
 				C70700A51A7854DD00E842A1 /* libz.dylib */,
 				C70700A31A7854D600E842A1 /* SystemConfiguration.framework */,
@@ -207,13 +221,6 @@
 			path = StoresAPI;
 			sourceTree = "<group>";
 		};
-		C70700B31A786AA600E842A1 /* Functional Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Functional Helpers";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +231,7 @@
 				C70700501A7853EB00E842A1 /* Sources */,
 				C70700511A7853EB00E842A1 /* Frameworks */,
 				C70700521A7853EB00E842A1 /* Resources */,
+				C71507EB1A79CB3000742B4E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -378,10 +386,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 					/Users/ruiperes/Desktop/Carthage.build/iOS,
+					/Users/ruiperes/Desktop,
 				);
 				INFOPLIST_FILE = "StoresLocator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -396,10 +406,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 					/Users/ruiperes/Desktop/Carthage.build/iOS,
+					/Users/ruiperes/Desktop,
 				);
 				INFOPLIST_FILE = "StoresLocator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

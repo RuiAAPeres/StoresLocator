@@ -7,20 +7,22 @@
 //
 
 import Foundation
+import LlamaKit
 
 class StoresAPI {
     
-    class func stores() {
+    class func stores(completion : (Result<[Store],NSError>) -> ()) {
         
         let query = PFQuery(className: Store.parseClassName())
         query.findObjectsInBackgroundWithBlock { (results : [AnyObject]!, error : NSError!) -> Void in
             
-            if let results = results as? [Store] {
-                
-            }
-            else {
-                
+            switch results {
+            case let stores where (results as? [Store] != nil) :
+                completion(success(stores as [Store]))
+            default :
+                completion(failure(error))
             }
         }
     }
 }
+
